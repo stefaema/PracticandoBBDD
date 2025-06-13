@@ -27,7 +27,6 @@ Este script:
 
 > **Nota:** Usar source es necesario para que se haga efectivo el cambio de entorno (venv).
 
----
 #### 2.1. Preparar Docker
 ```bash
 ./setup-docker.sh
@@ -36,6 +35,7 @@ Este script:
 - Construye la imagen de Docker con MySQL y la base Sakila.
 - Inicia el contenedor si no está corriendo.
 - Te muestra los datos de conexión para MySQL.
+
 #### 2.2. Preparar el entorno Python (virtualenv)
 
 Para trabajar con Jupyter y SQL, activa el entorno virtual y asegúrate de tener las dependencias instaladas:
@@ -64,12 +64,12 @@ Este script:
     ```bash
     jupyter notebook
     ```
-3. Abre o crea notebooks en la carpeta `select-practice`.
+3. Abrí o creá notebooks en la carpeta `select-practice`.
 
 #### Opción B: Desde VS Code
 
-1. Abre el notebook (`.ipynb`) en VS Code.
-2. En la barra superior del notebook, Aselecciona el kernel correspondiente a tu entorno virtual (`.venv`).
+1. Abrí el notebook que quieras estudiar (`.ipynb`) en VS Code.
+2. En la barra superior del notebook, Seleccioná el kernel correspondiente a tu entorno virtual (`.venv`).
 
 ---
 
