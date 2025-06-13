@@ -1,5 +1,7 @@
 #!/bin/bash
 set -e
+cd "$(dirname "${BASH_SOURCE[0]}")"
+
 
 # 🎨 Definición de colores para los mensajes
 RED='\033[0;31m'
@@ -54,4 +56,4 @@ echo -e "${YELLOW}> sudo usermod -aG docker \$USER${NC}"
 sudo usermod -aG docker $USER
 
 echo -e "${GREEN}✅ Docker instalado correctamente.${NC}"
-echo -e "${CYAN}🔄 Por favor, cierra sesión y vuelve a entrar para usar Docker sin sudo.${NC}"
+echo -e "${CYAN}🔄 Por favor, cierra sesión y vuelve a entrar para usar Docker sin sudo. Luego, podés usar el siguiente script, setup.sh${NC}"
