@@ -1,5 +1,8 @@
 # PracticandoBBDD
-Practicando SELECTs con Sakila en MySQL
+Practicando SELECTs con Sakila en MySQL.
+
+- `select-study` es para cuestiones teórico-prácticas.
+- `select-practice` es para practicar.
 
 ---
 
